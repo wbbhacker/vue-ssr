@@ -1,0 +1,9 @@
+{
+  "entry": {
+    "name": "server-bundle.js"
+  },
+  "files": {
+    "server-bundle.js": "module.exports=(()=>{\"use strict\";var e={458:(e,t,r)=>{r.r(t),r.d(t,{default:()=>i});const n=require(\"vue\");var o=r.n(n);const s=function(e,t,r,n,o,s,i,a){var d,p=\"function\"==typeof e?e.options:e;if(t&&(p.render=t,p.staticRenderFns=[],p._compiled=!0),d=function(e){(e=e||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext)||\"undefined\"==typeof __VUE_SSR_CONTEXT__||(e=__VUE_SSR_CONTEXT__),o&&o.call(this,e),e&&e._registeredComponents&&e._registeredComponents.add(i)},p._ssrRegister=d,d)if(p.functional){p._injectStyles=d;var u=p.render;p.render=function(e,t){return d.call(t),u(e,t)}}else{var c=p.beforeCreate;p.beforeCreate=c?[].concat(c,d):[d]}return{exports:e,options:p}}({name:\"App\",data:()=>({message:\"我的世界\"}),methods:{onClick(){console.log(\"Hello, World\")}}},(function(){var e=this,t=e.$createElement;return(e._self._c||t)(\"div\",{attrs:{id:\"app\"}},[e._ssrNode(\"<h1>\"+e._ssrEscape(e._s(e.message))+'</h1> <h2>客户端动态交互</h2> <div><input type=\"text\"'+e._ssrAttr(\"value\",e.message)+\"></div> <div><button>点击测试</button></div>\")])}),0,0,(function(e){}),0,\"f503c0c6\").exports,i=e=>{const{app:t}={app:new(o())({render:e=>e(s)})};return t}}},t={};function r(n){if(t[n])return t[n].exports;var o=t[n]={exports:{}};return e[n](o,o.exports,r),o.exports}return r.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return r.d(t,{a:t}),t},r.d=(e,t)=>{for(var n in t)r.o(t,n)&&!r.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},r.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),r.r=e=>{\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(e,\"__esModule\",{value:!0})},r(458)})();\n//# sourceMappingURL=server-bundle.js.map"
+  },
+  "maps": {}
+}
