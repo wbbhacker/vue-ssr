@@ -3,10 +3,10 @@
   "all": [
     "app.0178268b84efde12045b.js"
   ],
-  "initial": [],
-  "async": [
+  "initial": [
     "app.0178268b84efde12045b.js"
   ],
+  "async": [],
   "modules": {
     "239adfd4": [
       0
